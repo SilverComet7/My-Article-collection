@@ -5,7 +5,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN',
   title: 'Hello VuePress',
   description: 'Just playing around',
-  // base: '/blog/',
+  base: '/My-Article-collection/',
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
   },
