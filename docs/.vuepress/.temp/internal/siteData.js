@@ -1,5 +1,5 @@
 export const siteData = {
-  "base": "/blog/",
+  "base": "/My-Article-collection/",
   "lang": "zh-CN",
   "title": "Hello VuePress",
   "description": "Just playing around",
