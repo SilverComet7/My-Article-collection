@@ -1,5 +1,4 @@
 export const themeData = {
-  "contributors": false,
   "logo": "https://vuejs.org/images/logo.png",
   "locales": {
     "/": {
@@ -17,6 +16,7 @@ export const themeData = {
   "editLinkText": "Edit this page",
   "lastUpdated": true,
   "lastUpdatedText": "Last Updated",
+  "contributors": true,
   "contributorsText": "Contributors",
   "notFound": [
     "There's nothing here.",
@@ -28,4 +28,17 @@ export const themeData = {
   "openInNewWindow": "open in new window",
   "toggleDarkMode": "toggle dark mode",
   "toggleSidebar": "toggle sidebar"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
 }

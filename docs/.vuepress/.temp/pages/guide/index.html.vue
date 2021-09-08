@@ -1,2 +1,3 @@
-<template><p>test</p>
+<template><p>1
+2</p>
 </template>

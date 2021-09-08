@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --ext md,ts,vue --watch .vuepress --watch . --exec vuepress dev docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/SilverComet7/My-Article-collection#readme",
   "devDependencies": {
+    "nodemon": "^2.0.12",
     "vuepress": "^2.0.0-beta.25"
   }
 }
