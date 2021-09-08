@@ -1,4 +1,5 @@
 export const themeData = {
+  "contributors": false,
   "logo": "https://vuejs.org/images/logo.png",
   "locales": {
     "/": {
@@ -16,7 +17,6 @@ export const themeData = {
   "editLinkText": "Edit this page",
   "lastUpdated": true,
   "lastUpdatedText": "Last Updated",
-  "contributors": true,
   "contributorsText": "Contributors",
   "notFound": [
     "There's nothing here.",
