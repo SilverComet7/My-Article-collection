@@ -1,0 +1,24 @@
+{
+  "name": "my-article-collection",
+  "version": "1.0.0",
+  "description": "ChrisWang-文章集合",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilverComet7/My-Article-collection.git"
+  },
+  "author": "ChrisWang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilverComet7/My-Article-collection/issues"
+  },
+  "homepage": "https://github.com/SilverComet7/My-Article-collection#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.25"
+  }
+}
