@@ -1,2 +1,7 @@
 * [Home](/)
-* [youdao](/youdao/.md "The greatest guide in the world")
+* [有道](/youdao/.md "The greatest guide in the world")
+  * [近日好文](/youdao/近日好文/)
+* [编程通用](/编程通用/.md)
+  * [加解密](编程通用/加解密.md)
+* [教程](教程/README.md)
+  * [markdown](/教程/markdown.md)

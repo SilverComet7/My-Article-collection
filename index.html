@@ -27,7 +27,6 @@
         loadNavbar: true,
         loadSidebar: true,
         subMaxLevel: 4,
-        disqus: "shortname",
         count: {
           countable: true,
           fontsize: "0.9em",
@@ -38,8 +37,7 @@
         search: [
           "/", // => /README.md
           "/youdao/", // => /youdao.md
-          "/get-started", // => /get-started.md
-          "/zh-cn/", // => /zh-cn/README.md
+          "/编程通用/", 
         ],
         // 完整配置参数
         search: {
@@ -81,16 +79,15 @@
           // 匹配到的字符串将被用来识别索引
           pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/,
         },
-        // alias: {
-        //   "/.*/_sidebar.md": "/_sidebar.md",
-        // },
+        alias: {
+          "/.*/_sidebar.md": "/_sidebar.md",
+        },
       };
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
     <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   </body>
 </html>
