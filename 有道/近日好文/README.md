@@ -1,0 +1,66 @@
+1. [性能优化](https://juejin.cn/post/6981673766178783262#heading-2)
+2. [前端工程化搭建](https://juejin.cn/post/6951649464637636622)
+3. [浏览器风格](https://juejin.cn/post/6979821352576352269)
+4. [vscode 配置](https://juejin.cn/post/6844903826063884296#heading-12)
+
+# vscode 插件
+
+1. 整洁
+   1. eslint tslint pritter EditorConfig
+   2. git commitizen
+   3. better Comments
+1. 提示
+
+   1. element help
+   2. tabnine AI
+   3. 代码片段 JS/ES6 react vue html
+
+1. 效率
+
+   1. auto-rename
+   1. json to TS
+   1. css peek
+
+1. 优雅
+
+   1. Nest Comments 注释
+   2. log
+   3. htmlTagWrap
+   4. Quokka
+
+1. 扩展功能
+   1. http
+   2. sftp
+   3. ssh
+
+# 快捷键
+
+1.  工作区
+    ctrl + 1 / 2
+    ctrl + b 侧边栏 + J 终端 + \ 开启多个编辑器
+2.  跳转
+    ctrl + G 跳转行 ctrl + shift + \
+3.  移动光标
+    home
+    ctrl + ← / → 在单词之间移动光标
+4.  编辑操作
+
+# 功能
+
+1. 重构 ctrl + shift + r ctrl + .
+   命名重构 变量或函数上 F2
+   方法重构
+
+1. Emmet in vscode
+
+# jupyter notebook
+
+自我定义：强交互，强 debuge 的主要用于数据分析,科学计算的 python 编辑器
+
+# 音视频
+
+# shell 脚本
+
+1. [dos/shell 差别](https://cloud.tencent.com/developer/article/1477119)
+1. [dos 命令](https://www.w3cschool.cn/dosmlxxsc1/uebwv9.html)
+1. [bash 命令](https://wangdoc.com/bash/intro.html)
