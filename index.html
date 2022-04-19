@@ -19,7 +19,9 @@
       coverpage: true,
       loadNavbar: true,
       loadSidebar: true,
+      maxLevel: 4,
       subMaxLevel: 4,
+      sidebarDisplayLevel: 1,
       count: {
         countable: true,
         fontsize: "0.9em",
@@ -27,24 +29,6 @@
         language: "chinese",
       },
       search: "auto", // 默认值
-
-      /*  // 完整配置参数
-       search: {
-         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-         paths: 'auto', // or 'auto'
-         placeholder: "搜索",
- 
- 
-         noData: "找不到结果",
-         // 搜索标题的最大层级, 1 - 6
-         depth: 6,
- 
-         hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
- 
-         // 避免搜索索引冲突
-         // 同一域下的多个网站之间
-         namespace: "website-1",
-       }, */
       alias: {
         "/.*/_sidebar.md": "/_sidebar.md",
       },
@@ -57,6 +41,7 @@
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 
 </html>
