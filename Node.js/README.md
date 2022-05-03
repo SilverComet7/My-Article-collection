@@ -1,4 +1,4 @@
-# 工作中用到的库
+# 工作中用到的库(搭配 express/koa 使用)
 
-routing-controllers
-typedi
+- routing-controllers
+- TypeDi
