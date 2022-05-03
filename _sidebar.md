@@ -1,12 +1,11 @@
 <!-- docs/_sidebar.md created by koko-docsify_sidebarTool -->
 
-- [.git](.git/README.md)
 - [Node.js](Node.js/README.md)
   - [express](Node.js/express.md)
 - [前端](前端/README.md)
-  - [bash脚本](前端/bash脚本.md)
+  - [bash 脚本](前端/bash脚本.md)
   - [debugger](前端/debugger.md)
-  - [JWT使用](前端/JWT使用.md)
+  - [JWT 使用](前端/JWT使用.md)
   - [Three.js](前端/Three.js.md)
   - [网站集合](前端/网站集合.md)
 - [教程](教程/README.md)
