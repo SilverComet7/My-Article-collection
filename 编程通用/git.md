@@ -18,4 +18,4 @@ pref: 性能
 config: 配置
 ci: 自动部署，持续集成
 dep: 依赖相关
-chore: 杂项 README 等
+chore: 杂项 README ，package 等
