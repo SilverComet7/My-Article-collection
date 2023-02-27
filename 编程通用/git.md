@@ -19,3 +19,21 @@ config: 配置
 ci: 自动部署，持续集成
 dep: 依赖相关
 chore: 杂项 README ，package 等
+
+
+
+# 常用指令
+
+1. [工作中的 git](https://juejin.cn/post/6974184935804534815#heading-20)
+1. [book](https://git-scm.com/book/zh/v2)
+1. [book 总结](https://bingohuang.gitbooks.io/progit2/content/02-git-basics/sections/undoing.html)
+
+- stash status
+- revert reset
+- rebase merge
+- cherry-pick
+- add commit push pull fetch
+- branch
+  - checkout
+- log
+
