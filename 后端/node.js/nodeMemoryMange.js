@@ -1,4 +1,3 @@
-// var a = []; for (var i = 0; i < 1000000; i++) a.push(new Array(100));
 
 var bar = function () {
   var local = "局部变量";

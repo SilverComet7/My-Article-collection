@@ -22,7 +22,7 @@
 feat: 增加功能
 fix: 修复 bug
 ux: 用户体验，使用体验
-clean:删除无用代码
+clean:删除无用代码,去除功能
 style: 代码 format，CSS 样式
 refactor: 重构
 pref: 性能
